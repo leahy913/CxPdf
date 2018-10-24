@@ -10,11 +10,12 @@ import com.leahy.pdf.DocumentActivity;
 
 import java.io.File;
 
+/**
+ * https://github.com/archko/Mupdf
+ */
+
 public class MainActivity extends AppCompatActivity {
 
-    private static final String SAMPLE_FILE = "sample.pdf";
-    private String url;
-    //    private String path = "file:///android_asset/sample.pdf";
     private String sample = "/storage/emulated/0/tencent/TIMfile_recv/sample.pdf";
     private String android = "/storage/emulated/0/tencent/TIMfile_recv/android.pdf";
 
